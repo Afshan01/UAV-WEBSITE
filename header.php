@@ -42,7 +42,7 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.php">Home</a></li>
           <li><a class="nav-link scrollto" href="teams.php">Team</a></li>
           <li><a class="nav-link scrollto" href="projects.php">Project</a></li>
           <li><a class="nav-link scrollto" href="alumni.php">Alumni</a></li>
