@@ -1,4 +1,15 @@
 
+  <?php
+  
+  // path
+  $home_path = "./index.php";
+  $about_us_path = "./about.php";
+  $services_path = "./index.php";
+  $terms_path = "./index.php";
+  $policy_path = "./index.php";
+  
+  ?>
+
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="footer-top">
@@ -6,29 +17,30 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <img src="assets/img/logo.png" alt="TheEvenet">
+            <img src="assets/img/logo-drone.png" alt="UAV-ZHCET">
+            <a href="<?php echo "$home_path"?>">UAV ZHCET</a>
             <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="<?php echo $home_path?>">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="<?php echo $about_us_path?>">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="<?php echo $services_path?>">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="<?php echo $terms_path?>">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="<?php echo $policy_path?>">Privacy policy</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="privacy-policy.html">Privacy policy</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="<?php echo $home_path?>">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="<?php echo $about_us_path?>">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="<?php echo $services_path?>">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="<?php echo $terms_path?>">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="<?php echo $policy_path?>">Privacy policy</a></li>
             </ul>
           </div>
 
