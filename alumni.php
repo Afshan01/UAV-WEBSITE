@@ -20,9 +20,9 @@ include('header.php');
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
+              <img src="assets/img/alumni/alumni-01.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Brenden Legros</a></h3>
+                <h3><a href="alumni/alumni-01.php">Abdul Hannan Faruqui</a></h3>
                 <p>Quas alias incidunt</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -35,9 +35,9 @@ include('header.php');
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/speakers/2.jpg" alt="Speaker 2" class="img-fluid">
+              <img src="assets/img/alumni/alumni-02.jpg" alt="Speaker 2" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Hubert Hirthe</a></h3>
+                <h3><a href="alumni/alumni-02.php">Ayush Agrawal</a></h3>
                 <p>Consequuntur odio aut</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -50,9 +50,9 @@ include('header.php');
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-              <img src="assets/img/speakers/3.jpg" alt="Speaker 3" class="img-fluid">
+              <img src="assets/img/alumni/alumni-03.jpg" alt="Speaker 3" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Cole Emmerich</a></h3>
+                <h3><a href="alumni/alumni-03.php">Zia Uddin Shah Fahad</a></h3>
                 <p>Fugiat laborum et</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -63,7 +63,7 @@ include('header.php');
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
+          <!-- <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
               <img src="assets/img/speakers/4.jpg" alt="Speaker 4" class="img-fluid">
               <div class="details">
@@ -77,8 +77,8 @@ include('header.php');
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
+          </div> -->
+          <!-- <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
               <img src="assets/img/speakers/5.jpg" alt="Speaker 5" class="img-fluid">
               <div class="details">
@@ -92,8 +92,8 @@ include('header.php');
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
+          </div> -->
+          <!-- <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
               <img src="assets/img/speakers/6.jpg" alt="Speaker 6" class="img-fluid">
               <div class="details">
@@ -107,7 +107,7 @@ include('header.php');
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
 
@@ -115,7 +115,7 @@ include('header.php');
 
     <!-- ======= Speakers Section 2 ======= -->
     <!-- It Team -->
-    <section id="speakers">
+    <!-- <section id="speakers">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h2>It Team</h2>
@@ -216,11 +216,12 @@ include('header.php');
         </div>
       </div>
 
-    </section><!-- End Speakers Section 2 -->
+    </section> -->
+    <!-- End Speakers Section 2 -->
 
     <!-- ======= Speakers Section 3 ======= -->
     <!-- Mechanical Team -->
-    <section id="speakers">
+    <!-- <section id="speakers">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h2>Mechanical Team</h2>
@@ -321,11 +322,12 @@ include('header.php');
         </div>
       </div>
 
-    </section><!-- End Speakers Section 3 -->
+    </section> -->
+    <!-- End Speakers Section 3 -->
 
     <!-- ======= Speakers Section 4 ======= -->
     <!-- Electronics Team -->
-    <section id="speakers">
+    <!-- <section id="speakers">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h2>Electronics Team</h2>
@@ -426,7 +428,8 @@ include('header.php');
         </div>
       </div>
 
-    </section><!-- End Speakers Section 4 -->
+    </section> -->
+    <!-- End Speakers Section 4 -->
 
   </main><!-- End #main -->
   
