@@ -6,10 +6,262 @@ include('header.php');
 
 ?>
 
-  <main id="main">
 
+
+  <!-- Experiment starts -->
+  
+<?php
+// Mission statement
+$mission_statement = "Our mission is to promote the safe and responsible use of unmanned aerial vehicles (UAVs) for recreational and educational purposes.";
+
+// History
+$history = "Our club was founded in 2015 by a group of drone enthusiasts who wanted to share their passion for UAVs with others. Since then, we have grown to become one of the largest and most active UAV clubs in the region. Our members have participated in numerous competitions and events, and we are proud to have won several awards for our achievements.";
+
+// Membership
+$membership = "Membership in our club is open to anyone who shares our passion for UAVs. There are no fees or requirements to join, and we welcome members of all skill levels.";
+
+// Leadership
+$leadership = array(
+    "President" => "John Smith",
+    "Vice President" => "Jane Doe",
+    "Treasurer" => "Bob Johnson",
+    "Secretary" => "Samantha Lee"
+  );
+
+// Events
+$events = array(
+  array(
+    "title" => "Fly-In",
+        "date" => "October 15, 2023",
+        "location" => "Dehradun Airport",
+        "description" => "Join us for a day of flying and fun! Bring your UAV and show off your skills, or just come to watch and learn."
+    ),
+    array(
+      "title" => "Competition",
+      "date" => "November 12, 2023",
+      "location" => "Rajpur Stadium",
+      "description" => "Put your skills to the test in our annual UAV competition. Prizes will be awarded for the top performers."
+    )
+);
+
+// Training
+$training = array(
+    array(
+        "title" => "Flight Instruction",
+        "description" => "Learn the basics of UAV flight from our experienced instructors. We offer both classroom and hands-on training."
+    ),
+    array(
+        "title" => "Safety Course",
+        "description" => "Stay safe while flying your UAV with our comprehensive safety course. Topics include pre-flight checks, emergency procedures, and more."
+    )
+);
+
+// Fleet
+$fleet = array(
+    array(
+        "make" => "DJI",
+        "model" => "Phantom 4 Pro",
+        "description" => "A versatile quadcopter with advanced features such as obstacle avoidance and a 4K camera."
+    ),
+    array(
+        "make" => "Parrot",
+        "model" => "Bebop 2",
+        "description" => "A lightweight drone with a high-quality camera and long battery life."
+    )
+);
+
+// Community outreach
+$outreach = array(
+    array(
+        "title" => "STEM Education Program",
+        "description" => "We partner with local schools to provide STEM education programs that teach students about UAV technology and its applications."
+    ),
+    array(
+        "title" => "Search and Rescue Support",
+        "description" => "We work with local emergency services to provide UAV support for search and rescue operations."
+    )
+  );
+
+  // Sponsors
+$sponsors = array(
+    array(
+        "name" => "ABC Corporation",
+        "logo_url" => "/images/abc_logo.png"
+      ),
+      array(
+        "name" => "XYZ Corporation",
+        "logo_url" => "/images/xyz_logo.png"
+        )
+      );
+
+      // Contact information
+      $contact_info = array(
+        array(
+          'type' => 'Email',
+          'value' => 'info@uavclub.com'
+        ),
+        array(
+          'type' => 'Phone',
+          'value' => '+91-1234567890'
+        ),
+        array(
+          'type' => 'Address',
+          'value' => '123 Main Street, Dehradun, Uttarakhand'
+        ),
+);
+
+?>
+
+<!-- <h1>About Us</h1>
+
+<h2>Mission Statement</h2>
+	<p><?php echo $mission_statement; ?></p>
+  
+	<h2>History</h2>
+	<p><?php echo $history; ?></p>
+  
+	<h2>Membership</h2>
+	<p><?php echo $membership; ?></p> -->
+
+	<!-- <h2>Leadership</h2>
+	<ul>
+    <//?php foreach ($leadership as $role => $name) { ?>
+			<li><?//php echo $role . ': ' . $name; ?></li>
+		<?//php } ?>
+	</ul> -->
+  
+	<!-- <h2>Events</h2> -->
+	<ul>
+		<?//php foreach ($events as $event) { ?>
+			<!-- <li>
+				<h3><?php echo $event['title']; ?></h3>
+				<p><strong>Date:</strong> <?php echo $event['date']; ?></p>
+				<p><strong>Location:</strong> <?php echo $event['location']; ?></p>
+				<p><?php echo $event['description']; ?></p>
+			</li> -->
+      <?//php } ?>
+    </ul>
+
+    <!-- <h2>Training</h2> -->
+    <ul>
+      <?//php foreach ($training as $program) { ?>
+        <!-- <li>
+				<h3><?php echo $program['title']; ?></h3>
+				<p><?php echo $program['description']; ?></p>
+			</li> -->
+      <?//php } ?>
+	</ul>
+
+	<!-- <h2>Fleet</h2> -->
+  <ul>
+    <?//php foreach ($fleet as $uav) { ?>
+            <!-- <li><strong><?//php echo $uav['make'] . ' ' . $uav['model']; ?>:</strong> <?php echo $uav['description']; ?></li> -->
+        <?//php } ?>
+      </ul>
+
+      <!-- <h2>Community Outreach</h2> -->
+      <ul>
+        <?//php foreach ($outreach as $project) { ?>
+            <!-- <li><strong><?//php echo $project['title']; ?>:</strong> <?php //echo $project['description']; ?></li> -->
+            <?//php } ?>
+    </ul>
+
+    <!-- <h2>Sponsors</h2> -->
+    <ul>
+        <?//php foreach ($sponsors as $sponsor) { ?>
+          <li><img src="<?//php echo $sponsor['logo_url']; ?>" alt="<?php //echo $sponsor['name']; ?> Logo"></li>
+          <?//php } ?>
+        </ul>
+        
+        <!-- <h2>Contact Information</h2> -->
+        <ul>
+        <?//php foreach ($contact_info as $info) { ?>
+            <li><strong><?//php echo $info['type']; ?>:</strong> <?//php echo $info['value']; ?></li>
+            <?//php } ?>
+    </ul>
+
+    <!-- Experiment ends -->
+
+    <main id="main">
+
+
+    <!-- ======= Mission statement ======= -->
+    <section id="mission">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+        <h2>Mission Statement</h2>
+        <p><?php echo $mission_statement; ?></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= History ======= -->
+    <section id="history">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>History</h2>
+          <p><?php echo $history; ?></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Membership ======= -->
+    <section id="membership">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Membership</h2>
+          <p><?php echo $membership; ?></p>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- ======= Leadership ======= -->
+    <section id="leadership">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Leadership</h2>
+          <ul>
+            <?php foreach ($leadership as $role => $name) { ?>
+            <li><?php echo $role . ': ' . $name; ?></li>
+            <?php } ?>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Events ======= -->
+    <section id="events">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+        <h2>Events</h2>
+        <ul>
+          <?php foreach ($events as $event) { ?>
+            <li>
+              <h3><?php echo $event['title']; ?></h3>
+              <p><strong>Date:</strong> <?php echo $event['date']; ?></p>
+              <p><strong>Location:</strong> <?php echo $event['location']; ?></p>
+              <p><?php echo $event['description']; ?></p>
+            </li>
+            <?php } ?>
+          </ul>
+
+          <h2>Training</h2>
+          <ul>
+            <?php foreach ($training as $program) { ?>
+              <li>
+              <h3><?php echo $program['title']; ?></h3>
+              <p><?php echo $program['description']; ?></p>
+            </li>
+            <?php } ?>
+        </ul>
+
+        </div>
+      </div>
+    </section>
+    
     <!-- ======= Gallery Section ======= -->
-    <section id="gallery">
+    <!-- <section id="gallery">
 
       <div class="container" data-aos="fade-up">
         <div class="section-header">
@@ -17,7 +269,7 @@ include('header.php');
           <p>Check our gallery from the recent events</p>
         </div>
       </div>
-
+      
       <div class="gallery-slider swiper">
         <div class="swiper-wrapper align-items-center">
           <div class="swiper-slide"><a href="assets/img/gallery/1.jpg" class="gallery-lightbox"><img src="assets/img/gallery/1.jpg" class="img-fluid" alt=""></a></div>
@@ -32,10 +284,11 @@ include('header.php');
         <div class="swiper-pagination"></div>
       </div>
 
-    </section><!-- End Gallery Section -->
+    </section> -->
+    <!-- End Gallery Section -->
 
     <!-- ======= About Section ======= -->
-    <section id="about">
+    <!-- <section id="about">
       <div class="container position-relative" data-aos="fade-up">
         <div class="row">
           <div class="col-lg-6">
@@ -54,10 +307,11 @@ include('header.php');
           </div>
         </div>
       </div>
-    </section><!-- End About Section -->
+    </section> -->
+    <!-- End About Section -->
 
     <!-- ======= Supporters Section ======= -->
-    <section id="supporters" class="section-with-bg">
+    <!-- <section id="supporters" class="section-with-bg">
 
       <div class="container" data-aos="fade-up">
         <div class="section-header">
@@ -118,10 +372,11 @@ include('header.php');
 
       </div>
 
-    </section><!-- End Sponsors Section -->
+    </section> -->
+    <!-- End Sponsors Section -->
 
     <!-- ======= Subscribe Section ======= -->
-    <section id="subscribe">
+    <!-- <section id="subscribe">
       <div class="container" data-aos="zoom-in">
         <div class="section-header">
           <h2>Newsletter</h2>
@@ -138,10 +393,11 @@ include('header.php');
         </form>
 
       </div>
-    </section><!-- End Subscribe Section -->
+    </section> -->
+    <!-- End Subscribe Section -->
 
     <!-- ======= Buy Ticket Section ======= -->
-    <section id="buy-tickets" class="section-with-bg">
+    <!-- <section id="buy-tickets" class="section-with-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
@@ -192,7 +448,6 @@ include('header.php');
               </div>
             </div>
           </div>
-          <!-- Pro Tier -->
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
             <div class="card">
               <div class="card-body">
@@ -219,7 +474,6 @@ include('header.php');
 
       </div>
 
-      <!-- Modal Order Form -->
       <div id="buy-ticket-modal" class="modal fade">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
@@ -248,11 +502,12 @@ include('header.php');
                 </div>
               </form>
             </div>
-          </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-      </div><!-- /.modal -->
+          </div>
+        </div>
+      </div>
 
-    </section><!-- End Buy Ticket Section -->
+    </section> -->
+    <!-- End Buy Ticket Section -->
 
   </main><!-- End #main -->
 
