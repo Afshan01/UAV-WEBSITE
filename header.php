@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/logo-drone.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -37,7 +37,7 @@
       <div id="logo" class="me-auto">
         <!-- Uncomment below if you prefer to use a text logo -->
         <!-- <h1><a href="index.html">The<span>Event</span></a></h1>-->
-        <a href="index.php" class="scrollto"><img src="assets/img/logo.png" alt="" title=""></a>
+        <a href="index.php" class="scrollto"><img src="assets/img/logo-drone.png" alt="" title="">UAV ZHCET</a>
       </div>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
@@ -48,6 +48,7 @@
           <li><a class="nav-link scrollto" href="alumni.php">Alumni</a></li>
           <li><a class="nav-link scrollto" href="about.php">About</a></li>
           <li><a class="nav-link scrollto" href="faq.php">FAQ</a></li>
+          <!-- <li><a class="nav-link scrollto" href="faq.php">New</a></li> -->
           <li><a class="nav-link scrollto" href="contact.php">Contact</a></li>
           <!-- <li><a class="nav-link scrollto" href="#speakers">Speakers</a></li>
           <li><a class="nav-link scrollto" href="#schedule">Schedule</a></li>
