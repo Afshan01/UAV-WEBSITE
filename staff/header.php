@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="../assets/img/favicon.png" rel="icon">
-  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="../assets/img/logo-drone.png" rel="icon">
+  <link href="../assets/img/logo-drone.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
@@ -37,7 +37,7 @@
       <div id="logo" class="me-auto">
         <!-- Uncomment below if you prefer to use a text logo -->
         <!-- <h1><a href="index.html">The<span>Event</span></a></h1>-->
-        <a href="../index.php" class="scrollto"><img src="../assets/img/logo.png" alt="" title=""></a>
+        <a href="../index.php" class="scrollto"><img src="../assets/img/logo-drone.png" alt="" title="">UAV ZHCET</a>
       </div>
 
       <nav id="navbar" class="navbar order-last order-lg-0">

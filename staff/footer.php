@@ -1,12 +1,23 @@
-
-  <!-- ======= Footer ======= -->
+<?php
+  
+  // path
+  $home_path = "../index.php";
+  $about_us_path = "../about.php";
+  $services_path = "../index.php";
+  $terms_path = "../index.php";
+  $policy_path = "../index.php";
+  
+?>
+ 
+ <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <img src="../assets/img/logo.png" alt="TheEvenet">
+            <img src="../assets/img/logo-drone.png" alt="TheEvenet">
+            <a href="<?php echo "$home_path"?>">UAV ZHCET</a>
             <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p>
           </div>
 
