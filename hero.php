@@ -5,9 +5,15 @@
 $current_session = "2023-2024";
 
 $principal_name = "Prof. M. M. Sufyan Beg";
-$faculty_name_2 = "Dr. Rashid Ali";
+$chairman_name = "Prof. Mohammad Muzammil";
 $faculty_name_1 = "Dr. Syed Fahad Anwer";
 $faculty_name_2 = "Dr. Rashid Ali";
+
+// path
+$staff_01_path = "./staff/staff-01.php";
+$staff_02_path = "./staff/staff-02.php";
+$staff_03_path = "./staff/staff-03.php";
+$staff_04_path = "./staff/staff-04.php";
 
 ?>
 
@@ -59,7 +65,7 @@ $faculty_name_2 = "Dr. Rashid Ali";
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
               <img src="assets/img/staff/Principal.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href=""><?php echo"$principal_name" ?></a></h3>
+                <h3><a href="<?php echo"$staff_01_path"?>"><?php echo"$principal_name" ?></a></h3>
                 <p>Professor</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -90,7 +96,7 @@ $faculty_name_2 = "Dr. Rashid Ali";
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
               <img src="assets/img/staff/chairman.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href="">Prof. Mohammad Muzammil</a></h3>
+                <h3><a href="<?php echo"$staff_02_path"?>"><?php echo"$chairman_name"?></a></h3>
                 <p>Chairman</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -121,7 +127,7 @@ $faculty_name_2 = "Dr. Rashid Ali";
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
               <img src="assets/img/staff/faculty01.JPG" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href=""><?php echo"$faculty_name_1" ?></a></h3>
+                <h3><a href="<?php echo"$staff_03_path"?>"><?php echo"$faculty_name_1" ?></a></h3>
                 <p>Quas alias incidunt</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -136,7 +142,7 @@ $faculty_name_2 = "Dr. Rashid Ali";
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
               <img src="assets/img/staff/faculty02.JPG" alt="Speaker 2" class="img-fluid">
               <div class="details">
-                <h3><a href=""><?php echo"$faculty_name_2" ?></a></h3>
+              <h3><a href="<?php echo"$staff_04_path"?>"><?php echo"$faculty_name_2" ?></a></h3>
                 <p>Consequuntur odio aut</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
